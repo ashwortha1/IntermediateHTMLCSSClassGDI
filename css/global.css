@@ -1,0 +1,114 @@
+body {
+    background: white;
+    padding-top: 70px;
+    font-family: Arial;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fafafa;
+    border-bottom: 2px solid #ccc;
+    height: 70px;
+    width: 100%;
+}
+#brand {
+    text-indent: -9000px;
+    background: url(../images/logo.JPG); no-repeat top left;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 5px;
+}
+nav ul {
+    float: right;
+    width: auto;
+}
+nav li {
+    float: left;
+    width: auto;
+    list-style-type: none;
+}
+nav li a {
+    padding: 28px 10px;
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
+nav li a:hover{
+    background-color: #d3d3d3;
+    color:white;
+}
+#hero {
+    background: url(../images/sunset.png) no-repeat center center;
+    color: #fafafa;
+    text-align: center;
+    background-size: cover;
+    height: 350px;
+    padding: 25px 0;
+}
+#hero h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+#hero h3{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px 0;
+    margin: 0px auto;
+    color: white;
+}
+
+#hero img{
+    width: 150px;
+    border: 2px solid white;
+    -moz-border-radius: 10px 40px;
+    -webkit-border-radius: 10px 40px;
+    -ms-border-radius: 10px 40px;
+    -o-border-radius: 10px 40px;
+    border-radius: 10px 40px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.column h4 {
+    color: #551a8b;
+    font-size: 18px;
+}
+
+#social {
+    background: #57BEC5;
+    color: #fafafa;
+    padding: 25px 0;
+    overflow: hidden;
+}
+#social li {
+    float: left;
+    width: auto;
+    padding: 20px;
+}
+/*Layout*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.column img {
+    float: left;
+    width: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+    padding: 15px;
+    border: 2px solid #551a8b;
+}
