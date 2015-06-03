@@ -76,6 +76,7 @@ nav li a:hover{
     float: left;
     width: 30%;
     padding: 15px;
+    text-align: center;
 }
 
 h2{
@@ -83,22 +84,64 @@ h2{
 }
 
 .column h4 {
-    color: #551a8b;
-    font-size: 18px;
+    color: #57bfc6;
+    font-size: 20px;
+    padding: 10px 0;
 }
 
 #social {
-    background: #57BEC5;
+    background: #56bfc6;
     color: #fafafa;
     padding: 25px 0;
     overflow: hidden;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
 }
 #social li {
     float: left;
     width: auto;
-    padding: 20px;
+    padding: 0 10px;
+}
+#social h3{
+    color: white;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+#social ul {
+    width: 205px;
+    margin: 0 auto;
+}
+.about-me{
+    float: left;
+    width: 100%;
+    padding: 40;
+}
+.about-me h2{
+    margin: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: #656671;
+}
+.column p{
+    padding-bottom: 10px;
+}
+.column .btn{
+    display: block;
+    border: 2px solid #56bfc6;
+    width: 60%;
+    padding: 10px 0;
+    margin: 0px auto;
+    color: #56bfc6;
+    text-transform: uppercase;
+}
+.column .btn:hover{
+    background-color: #56bfc6;
+    color:white;
 }
 /*Layout*/
+
 .container {
     width: 80%;
     margin: 0 auto;
